@@ -13,7 +13,6 @@
   All python codes are recommended using python IDE (e.g. PyCharm, Spyder)
 
 ## Source data and models
--------------
  This repository includes source data for reproduction of the main figures.
  The source data containing the numerial values for the figures is stored as an excel file in `./data_generator/source_data` directory.
  The implemented and optimized models for cancer diagnosis, TOO discrimination, and multi-layer perceptron is stored in the same directory.
