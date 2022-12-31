@@ -18,10 +18,10 @@
  The implemented and optimized models for cancer diagnosis, TOO discrimination, and multi-layer perceptron is stored in the same directory.
 
 ## Reproduction of data
-<img src="https://img.shields.io/badge/Python-FFCA28?style=flat-square&logo=Python&logoColor=000000"/>
+<img src="https://img.shields.io/badge/Python-FFCA28?style=flat-square&logo=Python&logoColor=000000"/> <img src="https://img.shields.io/badge/MatLab R2021a-ED7D31?style=flat-square&logo=MatLab R2021a&logoColor=111111"/>
 
- All `.py` files starting with 'fig' in the `./data_generator` directory are codes written for re-implementation of figure.
- If you run the code through the recommended Python IDE, you can check the original figure data.
+ All `.py` or `.m` files starting with 'fig' in the `./data_generator` directory are codes written for re-implementation of figure.
+ If you run the code through the recommended Python IDE or MatLab, you can check the original figure data.
  
  `extract_ROC_CI.py` is a file to calculate statistics for quantifying the diagnostic performance of our model.
  This code generates the output, including AUC of ROC, sensitivity, specificity, accuracy, and precision value with a 95% confidence interval.
