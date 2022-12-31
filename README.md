@@ -35,8 +35,7 @@
 This decision algorithm is based on the pretrained models and weights in `./data_generator/source_data` directory.
 
 - Output example
-<pre><code>
-[ID: 1Col13]
+<pre><code> [ID: 1Col13]
 True label: COAD
 ==> Prediction: Cancer detected.
     TOO decision: COAD (Correct)
