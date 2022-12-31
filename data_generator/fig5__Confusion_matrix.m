@@ -6,7 +6,7 @@
 % Unauthorized use for other purpose is prohibited.
 
 clc; clear all; close all;
-mat = xlsread('.\data_generator\source_data\Source Data.xlsx', 'F5_Confusion matrix')
+mat = xlsread('.\source_data\Source Data.xlsx', 'F5_Confusion matrix')
 
 h = heatmap(mat);
 h.ColorScaling = 'scaledrows';
