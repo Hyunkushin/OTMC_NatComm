@@ -62,7 +62,7 @@ for lbl in labelabbre:
     result = pd.read_csv(path + '/result_testMerged.csv')
     merged_stats[lbl], merged_stats_senspe9599[lbl], fprtpr_op[lbl], fprtpr_min[lbl], fprtpr_max[lbl] = SummaryStats_CI(result, n_bootstrap = 1000, rng_seed = 777)
     print('\n----------------------------------------------------')
-    print('HC vs ' + lbl)
+    print(lbl + ' detector')
     print(merged_stats[lbl])
     print('----------------------------------------------------')
 
