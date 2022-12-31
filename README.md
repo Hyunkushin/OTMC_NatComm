@@ -33,9 +33,12 @@
 
 `decision_maker.py` is a programmed code that shows an example of operation to identify both cancer presence and TOO detection.
 This decision algorithm is based on the pretrained models and weights in `./data_generator/source_data` directory.
+The output will be displayed in console with ID, true label, and prediction result, like below.
 
 - Output example
 <pre><code>[ID: 1Col13]
 True label: COAD
 ==> Prediction: Cancer detected.
     TOO decision: COAD (Correct)</code></pre>
+
+'LUAD', 'BRCA', 'COAD', 'LIHC', 'PAAD', and 'STAD' are assigned to Lung, Breast, Colon, Liver, Pancreas, and Stomach cancer, respectively.
