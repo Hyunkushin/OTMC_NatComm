@@ -13,6 +13,7 @@
   All python codes are recommended using python IDE (e.g. PyCharm, Spyder)
 
 ## Source data and models
+-------------
  This repository includes source data for reproduction of the main figures.
  The source data containing the numerial values for the figures is stored as an excel file in `./data_generator/source_data` directory.
  The implemented and optimized models for cancer diagnosis, TOO discrimination, and multi-layer perceptron is stored in the same directory.
@@ -35,8 +36,7 @@
 This decision algorithm is based on the pretrained models and weights in `./data_generator/source_data` directory.
 
 - Output example
-<pre><code> [ID: 1Col13]
+<pre><code>[ID: 1Col13]
 True label: COAD
 ==> Prediction: Cancer detected.
-    TOO decision: COAD (Correct)
-</code></pre>
+    TOO decision: COAD (Correct)</code></pre>
