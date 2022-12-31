@@ -22,6 +22,11 @@
 
  All `.py` files starting with 'fig' in the `./data_generator` directory are codes written for re-implementation of figure.
  If you run the code through the recommended Python IDE, you can check the original figure data.
+ 
+ `extract_ROC_CI.py` is a file to calculate statistics for quantifying the diagnostic performance of our model.
+ This code generates the output, including AUC of ROC, sensitivity, specificity, accuracy, and precision value with a 95% confidence interval.
+ This code offers the major result on cancer presence detection (Table 1) and TOO discrimination (Table 2).
+ CI can be derived differently for each trial depending on the random seed value (Default = 777), and the repeated sampling number for bootstrapping was set to 1000.
 
 ## Decision maker
 <img src="https://img.shields.io/badge/Python-FFCA28?style=flat-square&logo=Python&logoColor=000000"/>
