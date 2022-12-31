@@ -15,7 +15,7 @@ warnings.simplefilter(action='ignore', category=FutureWarning)
 
 
 if __name__ == "__main__":
-    sourceData = pd.read_excel(r".\data_generator\source_data" + '/Source Data.xlsx', sheet_name='F2_SERS signal')
+    sourceData = pd.read_excel(r".\source_data" + '/Source Data.xlsx', sheet_name='F2_SERS signal')
     xaxis = np.array(sourceData.iloc[1:,0]).astype("float32")
     data_mean = np.array(sourceData.iloc[1:,1:8]).astype("float32")
     data_std = np.array(sourceData.iloc[1:, 10:17]).astype("float32")

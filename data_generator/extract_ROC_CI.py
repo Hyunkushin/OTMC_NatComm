@@ -19,7 +19,7 @@ from core.getStats import SummaryStats_CI
 labelabbre = ['LUAD', 'BRCA', 'COAD', 'LIHC', 'PAAD', 'STAD'] # Lung, Breast, Colon, Liver, Pancreas, Stomach
 
 ''' Cancer detector '''
-path = r".\data_generator\source_data\model_CD"
+path = r".\source_data\model_CD"
 result = pd.read_csv(path + '/result_testMerged.csv')
 
 # HC vs all cancer
@@ -58,7 +58,7 @@ fprtpr_op = dict()
 fprtpr_min = dict()
 fprtpr_max = dict()
 for lbl in labelabbre:
-    path = r".\data_generator\source_data\model_TOO" + '/' + lbl + '_detector'
+    path = r".\source_data\model_TOO" + '/' + lbl + '_detector'
     result = pd.read_csv(path + '/result_testMerged.csv')
     merged_stats[lbl], merged_stats_senspe9599[lbl], fprtpr_op[lbl], fprtpr_min[lbl], fprtpr_max[lbl] = SummaryStats_CI(result, n_bootstrap = 1000, rng_seed = 777)
     print('\n----------------------------------------------------')
