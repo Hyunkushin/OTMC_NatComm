@@ -3,6 +3,7 @@
 ## Overview
  These codes were written for a scientific paper <One Test-Multi Cancer: simultaneous, early detection of multi-cancer using Liquid Biopsy based on Exosome-SERS-AI> and demo of the results. Unauthorized use of this code for other purpose is prohibited.
  This repository contains Python codes to show example of cancer detector and TOO detector using exosomal SERS signals. In `./DataBase_demo` directory, sample data for demo of the codes are included. Also, codes for drawing main figures and calculate diagnostic performance are included.
+ Unauthorized commercial use of the models and source data is rigorously prohibited.
  
 ## System requirement
  - Python 3.8.8
@@ -17,7 +18,7 @@
  This repository includes source data for reproduction of the main figures.
  The source data containing the numerial values for the figures is stored as an excel file in `./data_generator/source_data` directory.
  The implemented and optimized models for cancer diagnosis, TOO discrimination, and multi-layer perceptron is stored in the same directory.
-
+ 
 ## Reproduction of data
 <img src="https://img.shields.io/badge/Python-FFCA28?style=flat-square&logo=Python&logoColor=000000"/> <img src="https://img.shields.io/badge/MatLab R2021a-ED7D31?style=flat-square&logo=MatLab R2021a&logoColor=111111"/>
 
