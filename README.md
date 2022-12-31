@@ -10,7 +10,8 @@
  - Pandas 1.4.2
  - Scikit-learn 0.24.1
  - Matlab R2021a
-  All python codes are recommended using python IDE (e.g. PyCharm, Spyder)
+ - All python codes are recommended using python IDE (e.g. PyCharm, Spyder)
+ - After the IDE to run the code and the operating environment above are built, any other installation is not required.
 
 ## Source data and models
  This repository includes source data for reproduction of the main figures.
@@ -34,6 +35,7 @@
 `decision_maker.py` is a programmed code that shows an example of operation to identify both cancer presence and TOO detection.
 This decision algorithm is based on the pretrained models and weights in `./data_generator/source_data` directory.
 The output will be displayed in console with ID, true label, and prediction result, like below. 'LUAD', 'BRCA', 'COAD', 'LIHC', 'PAAD', and 'STAD' are assigned to Lung, Breast, Colon, Liver, Pancreas, and Stomach cancer, respectively.
+The running time for the prediction of a single sample takes between 0.1~2 seconds, depending on the PC specifications.
 
 - Output example
 <pre><code>[ID: 1Col13]
