@@ -38,5 +38,5 @@ if __name__ == "__main__":
     fig.tight_layout()
     plt.show()
 
-    fig.savefig(r".\data_generator\fig_data" + "/Fig2_f_Raman signals.png", format='png', dpi = 300)  # Save PNG Imag
-    fig.savefig(r".\data_generator\fig_data" + "/Fig2_f_Raman signals.eps", format='eps')  # Save Vector Image
+    # fig.savefig(r".\data_generator\fig_data" + "/Fig2_f_Raman signals.png", format='png', dpi = 300)  # Save PNG Imag
+    # fig.savefig(r".\data_generator\fig_data" + "/Fig2_f_Raman signals.eps", format='eps')  # Save Vector Image
