@@ -34,8 +34,8 @@
 `decision_maker.py` is a programmed code that shows an example of operation to identify both cancer presence and TOO detection.
 This decision algorithm is based on the pretrained models and weights in `./data_generator/source_data` directory.
 
+- Output example
 <pre><code>
-''' Output example '''
 [ID: 1Col13]
 True label: COAD
 ==> Prediction: Cancer detected.
