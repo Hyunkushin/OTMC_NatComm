@@ -1,7 +1,7 @@
 # OTMC_NatComm
 
 ## Overview
- These codes were written for a scientific paper <One Test-Multi Cancer: simultaneous, early detection of multi-cancer using Liquid Biopsy based on Exosome-SERS-AI> and demo of the results. Unauthorized use of this code for other purpose is prohibited.
+ These codes were written for a scientific paper <Single test-based early diagnosis of multiple cancer types using Exosome-SERS-AI> and demo of the results. Unauthorized use of this code for other purpose is prohibited.
  This repository contains Python codes to show example of cancer detector and TOO detector using exosomal SERS signals. In `./DataBase_demo` directory, sample data for demo of the codes are included. Also, codes for drawing main figures and calculate diagnostic performance are included.
  Unauthorized commercial use of the models and source data is rigorously prohibited.
  
