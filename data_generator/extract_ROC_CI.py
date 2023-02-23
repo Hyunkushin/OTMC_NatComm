@@ -1,6 +1,6 @@
 """
-This code is for reproducing results of a scientific paper 'Hyunku Shin, et al., <One Test-Multi Cancer: simultaneous, early detection of
-multi-cancer using Liquid Biopsy based on Exosome-SERS-AI>'. Unauthorized use for other purpose is prohibited.
+This code is for reproducing results of a scientific paper 'Hyunku Shin, et al., <Single test-based early diagnosis of
+multiple cancer types using Exosome-SERS-AI>'. Unauthorized use for other purpose is prohibited.
 
 This code is to calculate statistical value about prediction performance and accuracy,
 including sensitivity, specificity, accuracy, precision, and AUC of ROC with 95% confidence interval (CI).

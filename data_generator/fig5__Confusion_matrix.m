@@ -1,8 +1,7 @@
 % 22-12-15
 % This code is for reproducing results of a scientific paper
-% 'Hyunku Shin, et al., <One Test-Multi Cancer: simultaneous,
-% early detection of multi-cancer using Liquid Biopsy based on
-% Exosome-SERS-AI>'.
+% 'Hyunku Shin, et al., Single test-based early diagnosis of
+% multiple cancer types using Exosome-SERS-AI'.
 % Unauthorized use for other purpose is prohibited.
 
 clc; clear all; close all;

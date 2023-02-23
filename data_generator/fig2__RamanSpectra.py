@@ -1,7 +1,6 @@
 """
-This code was written for a scientific paper <One Test-Multi Cancer: simultaneous, early detection of
-multi-cancer using Liquid Biopsy based on Exosome-SERS-AI> and demo of the results.
-The unauthorized use of this code for other purposes is prohibited.
+This code is for reproducing results of a scientific paper 'Hyunku Shin, et al., Single test-based early diagnosis of
+multiple cancer types using Exosome-SERS-AI'. Unauthorized use for other purpose is prohibited.
 """
 
 import numpy as np
