@@ -3,7 +3,7 @@
 ## Overview
  These codes were written for a scientific paper 'Single test-based early diagnosis of multiple cancer types using Exosome-SERS-AI' and demo of the results. Unauthorized use of this code for other purpose is prohibited.
  This repository contains Python codes to show example of cancer detector and TOO detector using exosomal SERS signals. In `./DataBase_demo` directory, sample data for demo of the codes are included. Also, codes for drawing main figures and calculate diagnostic performance are included.
- Unauthorized commercial use of the models and source data is rigorously prohibited.
+ For the weight values used in these models, commercial use through transfer learning or modulation beyond the scope of the license is prohibited. The SERS database  for demo, not code, is for demonstrating the operation of the model, and unauthorized or commercial use is prohibited. For non-commercial purposes or use of the database for research, please contact the author of the paper.
  
 ## System requirement
  - Python 3.8.8
